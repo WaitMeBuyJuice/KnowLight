@@ -1,0 +1,51 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+.kotlin
+
+### IntelliJ IDEA ###
+.idea/
+
+### AI tools cache ###
+.claude/
+.codesense/
+.codegraph/
+.codemaker/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+.codemap/
+.codemaker/codemap/
+.codemaker/codeindex/
+opencode.json
+.claude/skills/codemap-*/
+.claude/skills/code-index-*/
+
+### Secrets / Keys ###
+src/main/resources/keys/private.pem

@@ -1,14 +1,4 @@
-# 项目文档
-<div style="display: flex; gap: 10px;">
-  <img src="http://zhiguangapp.oss-cn-beijing.aliyuncs.com/posts/262804640385601536/images/20251226/11a8438f.png" width="250" />
-  <img src="http://zhiguangapp.oss-cn-beijing.aliyuncs.com/posts/262804640385601536/images/20251226/4035ca79.png" width="250" />
-  <img src="http://zhiguangapp.oss-cn-beijing.aliyuncs.com/posts/262804640385601536/images/20251226/40b80f25.png" width="250" />
-</div>
-
-![文档1](http://zhiguangapp.oss-cn-beijing.aliyuncs.com/posts/262804640385601536/images/20251226/43eb8fe1.png)
-![文档2](http://zhiguangapp.oss-cn-beijing.aliyuncs.com/posts/262804640385601536/images/20251226/42b24575.png)
-
-# 项目前端页面展示
+# 项目展示
 <div style="display: flex; gap: 10px;">
   <img src="https://free.picui.cn/free/2026/03/29/69c8db2c32d74.png" width="800" />
   <img src="https://free.picui.cn/free/2026/03/29/69c8db2ead009.png" width="800" />
@@ -19,10 +9,8 @@
 </div>
 
 # 知光平台-知识获取与分享社区
-后端 & 前端开发（前端采用 AI 辅助开发）
-- **后端地址**：https://github.com/G-Pegasus/zhiguang_be
-- **前端地址**：https://github.com/G-Pegasus/zhiguang_fe
-- **项目概述**：知识社区 APP（后续考虑支持付费），支持发布知识、点赞/收藏、关注取关、首页 Feed 展示与对象存储直传，AI 生成摘要等等。项目各模块进行了充分详细的设计以满足高并发和高可用需求
+- **项目地址**：https://github.com/WaitMeBuyJuice/KnowLight
+- **项目概述**：知识社区 APP，支持发布知识、点赞/收藏、关注取关、首页 Feed 展示与对象存储直传，AI 生成摘要等等。项目各模块进行了充分详细的设计以满足高并发和高可用需求
 - **技术栈**：后端 Java 21 + Spring Boot + Spring Security + Spring AI + RAG + MyBatis + MySQL + Redis + Kafka + Caffeine + 阿里云 OSS + Canal + Elasticsearch ；前端 React + Vite
 - **项目细节与亮点**：
     - **认证系统**：开发基于 Spring Security 的 JWT 双令牌认证系统，采用 RS256 签名 + Redis 刷新令牌白名单，实现 15 分钟访问令牌 + 7 天刷新令牌的安全会话管理，支持即时令牌撤销，兼顾高安全与高性能。
