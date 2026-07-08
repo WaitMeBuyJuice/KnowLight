@@ -12,7 +12,7 @@
 # 知光平台-知识获取与分享社区
 
 - **项目地址**：https://github.com/WaitMeBuyJuice/KnowLight
-- **项目概述**：知识社区 APP，支持发布知识、点赞/收藏、关注取关、首页 Feed 展示与对象存储直传，AI 生成摘要等等。项目各模块进行了充分详细的设计以满足高并发和高可用需求
+- **项目概述**：该平台面向知识获取与分享社区场景，由后端 Spring Boot 实现用户认证、知文发布、Feed 流展示、关注关系、点赞计数、全文搜索等功能；前端 React 构建社区交互界面，结合 MinIO 对象存储直传、DeepSeek AI 摘要生成、RAG 知识问答，支持多用户在线知识创作、分享与智能问答，并针对高并发高可用场景进行缓存、异步、限流等多维度优化。
 - **技术栈**：后端 Java 21 + Spring Boot + Spring Security + Spring AI + RAG + MyBatis + MySQL + Redis + Kafka + Caffeine + MinIO + Canal + Elasticsearch ；前端 React + Vite
 - **项目细节与亮点**：
   - **认证系统**：基于 Spring Security 开发 JWT 双令牌认证系统，采用 RS256 签名 + 分布式锁 + Redis 刷新令牌白名单，支持即时令牌撤销，兼顾高并发安全与高性能。
